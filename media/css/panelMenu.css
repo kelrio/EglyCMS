@@ -1,0 +1,33 @@
+/**
+ * Arkusz do sekcji zarządzania menu
+ **/
+.container-result-grid .col {display: inline-grid; /*width: 100px;*/}
+.container-result-grid .col .element{ border-width: 3px; border-color: #353535 #616161 #616161 #353535; border-style: solid;/* padding: 0; margin-right: 5px;*/}
+.container-result-grid .col .element input {width: calc(100% - 2px); padding-left: 2px; /*padding-top: 2px;*/ border: none}
+.container-result-grid .col .exist:first-child { border-color: #616161 #616161 #353535 #353535; border-style: solid;}
+.container-result-grid .col .exist:first-child input {background: #423f3f; color: #ffea5a;}
+.container-result-grid .col .exist:first-child input:focus {background: #585454;}
+.container-result-grid .col .exist { border-color: #353535 #353535 #616161 #616161; border-style: solid;}
+.container-result-grid .col .exist input {background: #e0e0e0; color: #000000;}
+.container-result-grid .col .exist input:focus {background: #bcbcbc;}
+.container-result-grid .col .exist .close-wrap {position: relative;}
+.container-result-grid .col .exist .close-wrap .close {position: absolute; top: -43px; right: 0;}
+
+.close-wrap button{border: solid 2px #39393d; border-radius: 5px; padding: 4px 7px; background: #ffffff; text-transform: uppercase; color: #39393d; outline: none; margin: 1px; -webkit-transition-duration: 0.4s; transition-duration: 0.4s;}
+.close-wrap button:hover{background: #39393d; color: #ffffff; border: solid 2px #39393d;}
+
+.container-result-grid .col .notexist {border-color: #353535; border-style: dashed;}
+
+@media only screen and (min-width: 768px){
+    .container-result-grid {width: auto;}
+    .container-result-grid .col {width: 100px;}
+    .container-result-grid .col .element {margin-right: 5px; padding: 0;}
+    .container-result-grid .col .element input {padding-top: 2px;}
+}
+
+@media only screen and (max-width: 768px){
+    .container-result-grid {width: 100%;}
+    .container-result-grid .col {width: 100%; margin-top: 5px; margin-bottom: 10px;}
+    .container-result-grid .col .element {padding-top: 0;}
+    .container-result-grid .col .element input {height: 100%; margin: 0; padding-top: 3px;}
+}

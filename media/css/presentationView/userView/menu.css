@@ -1,0 +1,10 @@
+nav ul{list-style-type: none; padding: 0; margin: 0; font-size: 16px; display: flex; flex-wrap: wrap;}
+nav ul li {}
+nav ul li a, nav a{ text-decoration: none; color: #0000ff; padding: 8px 16px; background: #111111; border: groove 1px #111111;}
+nav ul li a:hover {background: #ff0000;}
+nav ul li ul {display: none; position: absolute;}
+nav ul li ul li{margin-top: 16px;}
+nav ul li:hover ul{display: flex; flex-direction: column;}
+nav .active {background: #abffab;}
+nav .panel{margin-left: auto;}
+nav .panel a:hover {background: #0000ff;}

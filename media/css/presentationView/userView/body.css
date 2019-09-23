@@ -1,0 +1,5 @@
+section{display: inline;}
+section .imageDescription{}
+section .imageDescription p{padding: 0; margin-top: 0; font-style: italic; color: #232323;}
+
+section img {max-width: 100%;}

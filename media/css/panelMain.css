@@ -1,0 +1,38 @@
+/**
+ * Arkusz do layoutu całego panelu zarządzania
+ **/
+body, html {width: 100%; height: 100%; background: #1e1e22; color: #dedef2; margin: 0; padding: 0;}
+header {width: 100%; text-align: center; background: #2f2f2f; color: #fff; margin: 0;}
+header h1 {margin: 10px 0;}
+header .margin-head {width: 100%; height: 30px; background: #b28556; text-align: left; padding-top: 5px;}
+header .margin-head button {border: groove 3px #7b5b38; border-radius: 5px; margin-left: 10px; text-align: center; background: #e1b17e;}
+header .margin-head button:active {border: ridge;}
+header .margin-head a {text-decoration: none; color: #000000;}
+header .margin-head a:last-child {float: right;}
+
+#message-window {text-align: center; position: fixed; top: -100px; left: 50%; z-index: 99; transform: translateX(-50%);}
+#message-window #message {background: #ffffff; padding: 25px 5px 5px 5px; width: auto; border-radius: 0 0 15px 15px; border-style: none ridge ridge ridge; color: #212121;}
+#message-window #message p{margin: 10px; display: inline;}
+#message-window #message img{ display: inline;}
+
+aside {/*margin: 35px 30px; padding: 10px; border: ridge 5px #767588;*/ background: #ffffff; color: #000000;}
+
+.tiles {display: grid; grid-gap: 10px; grid-template-columns: 24% 24% 24% 24%; font-family: sans-serif;}
+.tiles a{text-decoration: none; color: #ffffff; background: #004aff; padding: 20px; text-transform: uppercase; border: solid 3px #004aff; transition: .3s; -webkit-transition: .3s;}
+.tiles a:hover {border: solid 3px #a2b1d9; background: #008bff;}
+
+.tiles .a {grid-column: 1 / span 3; grid-row: 1;}
+.tiles .b {grid-column: 4; grid-row: 1 / span 2;}
+.tiles .c {grid-column: 1; grid-row: 2;}
+.tiles .d {grid-column: 2 / span 2; grid-row: 2;}
+
+aside button{font-family: sans-serif; color: #ffffff; background: #004aff; padding: 20px; text-transform: uppercase; margin: 5px; border: solid 3px #004aff; transition: .3s; -webkit-transition: .3s;}
+aside button:hover{border: solid 3px #a2b1d9; background: #008bff;}
+
+@media only screen and (min-width: 768px){
+    aside{margin: 35px 30px; padding: 10px; border: ridge 5px #767588;}
+}
+
+@media only screen and (max-width: 768px){
+    aside{margin: 0; padding: 10px; border: none;}
+}

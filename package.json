@@ -1,0 +1,13 @@
+{
+  "name": "eglycms",
+  "version": "1.0.0",
+  "description": "An original content management system created for the needs of engineering work",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michał Zbigniew Brodacki",
+  "license": "MIT"
+}

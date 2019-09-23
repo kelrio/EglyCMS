@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `EglyCMS_image` (
+  `idimage` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(35) NOT NULL,
+  `type` VARCHAR(3) NOT NULL,
+  PRIMARY KEY (`idimage`))
+ENGINE = InnoDB;
