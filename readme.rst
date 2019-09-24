@@ -11,9 +11,9 @@ Demo:
 http://kelrio.webd.pro/eglyCMS/
 
 Panel Login Details:
-Login: test
-Password: qwerty
-Account access is disabled
+ - Login: test
+ - Password: qwerty
+ * Account access is disabled
 
 *******************
 Server Requirements
@@ -34,8 +34,8 @@ Put file on the server and run the install controller (<your address/install/) o
  - ./setup/*.sql
 
 Now you can run EglyCMS in browser and login for panel:
-Login: admin
-password: admin
+ - Login: admin
+ - password: admin
 
 
 
