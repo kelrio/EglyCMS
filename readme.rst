@@ -8,7 +8,7 @@ EglyCMS is a proprietary content management system based on the CodeIgniter fram
 Demo:
 *****
 
-<http://kelrio.webd.pro/eglyCMS/>`_.
+http://kelrio.webd.pro/eglyCMS/
 
 Panel Login Details:
 Login: test
@@ -28,10 +28,10 @@ Installation
 ************
 
 Put file on the server and run the install controller (<your address/install/) or manually configure the files:
-./application/config/config.php
-./application/config/database.php
-and run sql scripts:
-./setup/*.sql
+ - ./application/config/config.php
+ - ./application/config/database.php
+ - and run sql scripts:
+ - ./setup/*.sql
 
 Now you can run EglyCMS in browser and login for panel:
 Login: admin
